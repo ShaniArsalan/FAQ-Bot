@@ -1,0 +1,71 @@
+version: "3.1"
+stories:
+  - story: Greet and ask hours
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_hours
+      - action: utter_hours
+
+  - story: Ask for location
+    steps:
+      - intent: ask_location
+      - action: utter_location
+
+  - story: Ask for services
+    steps:
+      - intent: ask_services
+      - action: utter_services
+
+  - story: Goodbye conversation
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Ask for contact
+    steps:
+      - intent: ask_contact
+      - action: utter_ask_contact
+
+  - story: Ask for pricing
+    steps:
+      - intent: ask_pricing
+      - action: utter_ask_pricing
+
+  - story: Ask for payment method
+    steps:
+      - intent: ask_payment_method
+      - action: utter_ask_payment_method
+
+
+
+# version: "3.1"
+
+# stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye

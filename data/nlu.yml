@@ -1,0 +1,162 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good evening
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - take care
+
+  - intent: ask_hours
+    examples: |
+      - What are your working hours?
+      - Can you tell me the hours of operation?
+      - When are you open?
+      - what are your timings?
+      - what are the working hours?
+      - Timings please?
+
+  - intent: ask_location
+    examples: |
+      - Where is your office located?
+      - What’s the address?
+      - Can you tell me your location?
+      - Can you please share the address?
+      - Address please?
+      - Location please?
+      - Where to come? 
+
+  - intent: ask_services
+    examples: |
+      - What services do you provide?
+      - Can you tell me about your services?
+      - What do you offer?
+      - And services?
+    
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: ask_contact
+    examples: |
+      - How we can contact you?
+      - What's the contact number?
+      - Contact number please?
+      - How can i contact your office?
+      - Can you provide your phone number?
+
+  - intent: ask_pricing
+    examples: |
+      - How much do your services cost?
+      - Can you tell me about the pricing?
+      - What are your charges for web development?
+      - Pricing please?
+      - Charges please?
+
+  - intent: ask_payment_method
+    examples: |
+      - Do you accept credit cards?
+      - Can I pay via bank transfer?
+      - Can i pay cash?
+      - What payment options do you accept?
+      - What are the payment options?
+
+
+# version: "3.1"
+
+# nlu:
+# - intent: greet
+#   examples: |
+#     - hey
+#     - hello
+#     - hi
+#     - hello there
+#     - good morning
+#     - good evening
+#     - moin
+#     - hey there
+#     - let's go
+#     - hey dude
+#     - goodmorning
+#     - goodevening
+#     - good afternoon
+
+# - intent: goodbye
+#   examples: |
+#     - cu
+#     - good by
+#     - cee you later
+#     - good night
+#     - bye
+#     - goodbye
+#     - have a nice day
+#     - see you around
+#     - bye bye
+#     - see you later
+
+# - intent: affirm
+#   examples: |
+#     - yes
+#     - y
+#     - indeed
+#     - of course
+#     - that sounds good
+#     - correct
+
+# - intent: deny
+#   examples: |
+#     - no
+#     - n
+#     - never
+#     - I don't think so
+#     - don't like that
+#     - no way
+#     - not really
+
+# - intent: mood_great
+#   examples: |
+#     - perfect
+#     - great
+#     - amazing
+#     - feeling like a king
+#     - wonderful
+#     - I am feeling very good
+#     - I am great
+#     - I am amazing
+#     - I am going to save the world
+#     - super stoked
+#     - extremely good
+#     - so so perfect
+#     - so good
+#     - so perfect
+
+# - intent: mood_unhappy
+#   examples: |
+#     - my day was horrible
+#     - I am sad
+#     - I don't feel very well
+#     - I am disappointed
+#     - super sad
+#     - I'm so sad
+#     - sad
+#     - very sad
+#     - unhappy
+#     - not good
+#     - not very good
+#     - extremly sad
+#     - so saad
+#     - so sad
+
+
